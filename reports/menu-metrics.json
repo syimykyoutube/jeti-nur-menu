@@ -1,0 +1,60 @@
+{
+  "url": "http://localhost:8788/jeti-nur-demo-30",
+  "dishes": 30,
+  "images": 31,
+  "htmlBytes": 91595,
+  "gzipBytes": 6336,
+  "inlineJsBytes": 1168,
+  "swBytes": 4002,
+  "localhostRequests": [
+    {
+      "ttfbMs": 195,
+      "totalMs": 240
+    },
+    {
+      "ttfbMs": 54,
+      "totalMs": 72
+    },
+    {
+      "ttfbMs": 24,
+      "totalMs": 35
+    },
+    {
+      "ttfbMs": 29,
+      "totalMs": 57
+    },
+    {
+      "ttfbMs": 34,
+      "totalMs": 49
+    }
+  ],
+  "lighthouse": [
+    {
+      "report": "menu-mobile.report.json",
+      "performance": 90,
+      "fcpMs": 980.63835,
+      "lcpMs": 1017.9575249999999,
+      "speedIndexMs": 21597.062235998063,
+      "tbtMs": 27.5,
+      "cls": 0
+    },
+    {
+      "report": "menu-slow-3g.report.json",
+      "performance": 85,
+      "fcpMs": 1485.171,
+      "lcpMs": 1485.171,
+      "speedIndexMs": 1614,
+      "tbtMs": 578.9360000000001,
+      "cls": 0
+    },
+    {
+      "report": "menu-slow-3g-idle.report.json",
+      "performance": 95,
+      "fcpMs": 872.413,
+      "lcpMs": 872.413,
+      "speedIndexMs": 1265,
+      "tbtMs": 271.7580000000005,
+      "cls": 0
+    }
+  ]
+}

@@ -12,3 +12,6 @@ migrations_dir = "migrations"
 [[r2_buckets]]
 binding = "IMAGES"
 bucket_name = "jeti-nur-menu-images"
+
+[assets]
+directory = "./public"

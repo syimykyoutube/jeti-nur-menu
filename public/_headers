@@ -1,0 +1,5 @@
+/sw.js
+  Cache-Control: no-cache
+  Service-Worker-Allowed: /
+  Content-Type: application/javascript; charset=utf-8
+  X-Content-Type-Options: nosniff

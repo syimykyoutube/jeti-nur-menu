@@ -1,0 +1,15 @@
+# Жергиликтүү сырлар
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+
+# Пакеттер, Wrangler абалы жана логдор
+node_modules/
+.wrangler/
+*.log
+
+# Түзүлгөн файлдар жана macOS
+dist/
+coverage/
+.DS_Store

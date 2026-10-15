@@ -1,0 +1,23 @@
+{
+  "name": "jeti-nur-menu",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Жети Нур Меню — Cloudflare Workers жана Hono негизиндеги меню",
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.13.13"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261015.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4",
+    "wrangler": "^4.151.0"
+  }
+}

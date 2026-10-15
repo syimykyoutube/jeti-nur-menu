@@ -1,0 +1,14 @@
+name = "jeti-nur-menu"
+main = "src/index.ts"
+compatibility_date = "2026-10-15"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "jeti-nur-menu"
+# Локалдык иштетүү үчүн гана. Деплой алдында чыныгы D1 ID менен алмаштырылат.
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "jeti-nur-menu-images"

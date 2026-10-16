@@ -5,8 +5,8 @@ compatibility_date = "2026-10-15"
 [[d1_databases]]
 binding = "DB"
 database_name = "jeti-nur-menu"
-# Локалдык иштетүү үчүн гана. Деплой алдында чыныгы D1 ID менен алмаштырылат.
-database_id = "00000000-0000-0000-0000-000000000000"
+# Cloudflare продакшн базасы; wrangler dev локалдык симуляцияны колдонот.
+database_id = "39fc3206-5f90-49f9-8f44-cc0a16834435"
 migrations_dir = "migrations"
 
 [[r2_buckets]]

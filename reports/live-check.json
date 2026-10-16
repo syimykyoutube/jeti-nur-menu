@@ -1,0 +1,145 @@
+{
+  "recordedOn": "2026-10-15",
+  "note": "Historical acceptance evidence before the 2026-10-16 key rotation; current status: live-final-check.json",
+  "setupClosed": true,
+  "superPanel": true,
+  "secureCookie": true,
+  "ownerDashboard": true,
+  "ownerCannotReachSuper": true,
+  "ownerCannotRevealPassword": true,
+  "crossCafe:/admin/cafes/10001": true,
+  "crossCafe:/admin/cafes/10001/qr.png": true,
+  "csrf": true,
+  "seed": {
+    "cafeId": 1,
+    "slug": "jeti-nur-demo",
+    "categories": 5,
+    "dishes": 30,
+    "variants": 90,
+    "images": 31,
+    "imageBytes": 64279
+  },
+  "publicMenu": {
+    "status": 200,
+    "dishes": 30
+  },
+  "cacheHeaders": true,
+  "sizeBudget": {
+    "html": 91537,
+    "gzip": 6398,
+    "inlineJs": 1168
+  },
+  "liveTimings": [
+    {
+      "ttfbMs": 333,
+      "totalMs": 339
+    },
+    {
+      "ttfbMs": 172,
+      "totalMs": 177
+    },
+    {
+      "ttfbMs": 80,
+      "totalMs": 94
+    },
+    {
+      "ttfbMs": 76,
+      "totalMs": 80
+    },
+    {
+      "ttfbMs": 81,
+      "totalMs": 88
+    }
+  ],
+  "qrDownloadHeaders": true,
+  "liveQrScansCorrectly": {
+    "url": "https://jeti-nur-menu.jeti-nur-menu.workers.dev/jeti-nur-demo",
+    "pngWidth": 2058,
+    "dpi": 300
+  },
+  "browserImageStoredAsSmallWebp": {
+    "sourceBytes": 9634198,
+    "r2Bytes": 98258,
+    "mime": "image/webp"
+  },
+  "imageImmutableCache": true,
+  "replacedImageDeleted": true,
+  "crossExistingCafeRead": true,
+  "crossExistingCafeWrite": true,
+  "crossExistingCafeQr": true,
+  "otherCafeWasNotModified": true,
+  "temporaryIsolationCafeDeleted": true,
+  "twoDevicesInitiallyActive": true,
+  "changeLogin": true,
+  "loginRevokesEveryDevice": true,
+  "oldLoginRejected": true,
+  "changePassword": true,
+  "passwordRevokesEveryDevice": true,
+  "oldPasswordRejected": true,
+  "pauseCafe": true,
+  "pauseRevokesSession": true,
+  "pausedLoginRejected": true,
+  "originalCredentialsAndStatusRestored": true,
+  "initialAvailable": true,
+  "availabilitySaved": true,
+  "availabilityChangeStarted": {
+    "started": "2026-10-15T16:28:26.661Z",
+    "oldVersion": 40,
+    "newVersion": 41
+  },
+  "availabilityVisibleWithinTwoMinutes": {
+    "elapsedMs": 71078,
+    "version": 41,
+    "updated": true
+  },
+  "browserLanguage": {
+    "kyRu": true,
+    "persistedAfterReload": true
+  },
+  "mobileLayout": {
+    "viewport": 360,
+    "scrollWidth": 360,
+    "dishes": 30
+  },
+  "nativeDetails": true,
+  "offline": {
+    "dishes": 30,
+    "loadedImages": 31,
+    "totalImages": 31,
+    "newQuery": true,
+    "networkRestored": true
+  },
+  "phoneQrConfirmedByUser": true,
+  "tests": {
+    "files": 10,
+    "passed": 122,
+    "typecheck": true,
+    "command": "npm test -- --no-file-parallelism --testTimeout=15000",
+    "durationSeconds": 193.95,
+    "defaultTimeoutRun": {
+      "passed": 116,
+      "timedOut": 6,
+      "timeoutMs": 5000
+    }
+  },
+  "largeSourceVerifiedInBrowser": {
+    "sourceBytes": 9634198,
+    "displayedSize": "9408.4 КБ → 96.0 КБ · 640 × 448 px · WebP",
+    "width": 640,
+    "height": 448
+  },
+  "secondReplacedImageDeleted": true,
+  "finalDeployment": {
+    "version": "a2681f34-6538-473a-ae1d-f13ee26c19df",
+    "editorStatus": 200,
+    "temporaryProbeAbsent": true,
+    "publicStatus": 200,
+    "dishes": 30,
+    "imageBytes": 98258,
+    "setupStatus": 404,
+    "passwordViewKeyWorking": true,
+    "htmlBytes": 91684,
+    "gzipBytes": 6452,
+    "temporarySourceAndPatchRemoved": true
+  }
+}

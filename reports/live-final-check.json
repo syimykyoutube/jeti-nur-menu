@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-16T03:40:17.004Z",
+  "origin": "https://jeti-nur-menu.jeti-nur-menu.workers.dev",
+  "root": {
+    "status": 200
+  },
+  "menu": {
+    "status": 200,
+    "htmlBytes": 91684,
+    "gzipBytes": 6452,
+    "cacheControl": "public, max-age=60, stale-while-revalidate=86400"
+  },
+  "setup": {
+    "status": 404
+  },
+  "superPanel": {
+    "status": 200
+  },
+  "staleOwnerPassword": {
+    "status": 503
+  },
+  "editor": {
+    "status": 200,
+    "temporaryProbeAbsent": true
+  },
+  "auditSessionLogoutStatuses": [
+    303,
+    303
+  ],
+  "productionKeyRotated": true,
+  "ownerPasswordResaveRequired": true,
+  "productionInventory": {
+    "realCafes": 0,
+    "testCafes": [
+      {
+        "id": 1,
+        "name": "Жети Нур — сыноо",
+        "slug": "jeti-nur-demo",
+        "items": 30,
+        "decision": "Retained as public demo; deletion proposed"
+      }
+    ],
+    "pendingImageUploads": 0,
+    "isolationTestCafeAbsent": true
+  },
+  "finalTests": {
+    "command": "npm test",
+    "files": 10,
+    "passed": 122,
+    "durationSeconds": 56.88,
+    "typecheck": true
+  }
+}

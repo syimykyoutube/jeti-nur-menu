@@ -4,6 +4,7 @@
 !.dev.vars.example
 .env
 .env.*
+cloudflare-secrets.env
 
 # Пакеттер, Wrangler абалы жана логдор
 node_modules/
